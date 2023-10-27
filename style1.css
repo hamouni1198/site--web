@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&family=Poppins:ital,wght@1,100&display=swap');
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+    
+}
+.navbar{
+    display: flex;
+    padding: 7px 250px 0px 90px;
+    align-items: center;
+    justify-content: left;
+    background-color: black;
+    height: 100px;
+    font-size: 17px;
+    font-weight: 400;
+    overflow: hidden;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar .list ul,li{
+    display: flex;
+    list-style: none;
+    gap: 210px;
+    
+    
+}
+.navbar .list a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight:100;
+}
+
+.video video {
+    object-fit: cover;
+    width: 100%;
+    height: 700px;
+    position: relative;
+  }
+  .about{
+    text-align: center;
+    height: 400px;
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    bottom: 50px;
+    padding-top: 50px;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+
+  }
+  .about p{
+    text-indent: 50px;
+    font-family: 'Kanit', sans-serif;
+
+  }
+ 
+  .work{
+   margin-top: 100px;
+   margin: 0 auto;
+   width:100%;
+   background-image: url();
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   bottom: 76px;   
+  }
+  
+  .work .titre h5{
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    color: rgb(168, 168, 168);
+    font-weight: 100;
+    letter-spacing: 5px;
+  }
+  .work .titre h1{
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .work .img1{
+    display: flex;
+    justify-content: left;
+    gap: 13px;
+    padding-bottom: 50px;
+  }
+  
+.cantact{
+  text-align: center;
+  color: black;
+}
+.service{
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  color: black;
+  font-family: 'Kanit', sans-serif;
+
+  
+}
+.service h1{
+  color: black;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 5px;
+
+}
+.service .s1 ,.s2{
+  text-align: center;
+  line-height: 29px;
+  font-size: 15px;
+  font-weight: 100;
+  color: rgb(177, 174, 174);
+  letter-spacing:   0.2px;
+  font-family: 'Kanit', sans-serif;
+
+}
+.part2{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.part2 form input {
+  width: 500px;
+  height: 20px;
+  margin-top: 10px;
+  background-color: rgb(226, 225, 225);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-family: 'Gloock', serif;
+  font-size: 17px;
+  padding: 20px;
+  color: white;
+  transition: 0.5s;
+}
+
+ .part2 form textarea{
+  width:500px;
+  height: 167px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: rgb(226, 225, 225);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-family: 'Gloock', serif;
+  font-size: 17px;
+  padding: 20px;
+  color: white;
+  
+}
+ .part2 form input:hover{
+  font-size: 19px;
+}
+.button3{
+  padding: 40px 0px 0px 210px;
+}
+.button3 .bu3 button{
+  width: 90px;
+  height: 50px;
+  background-color: rgb(204, 201, 201);
+  border: none;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  left: 1040px;
+  bottom: 45px;
+  font-family: 'Shippori Antique B1', sans-serif;
+  font-size: 17px;
+  padding: 10px;
+
+}
+
+.work .imag1{
+  background-image: url(./image/DJI_0191-29.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 510px;
+  height: 550px;
+  border-radius: 10px;
+
+   
+}
+.work .imag2{
+  background-image: url(./image/DJI_0191-29.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 510px;
+  height: 550px;
+  border-radius: 10px;
+
+   
+}
+.work .imag3{
+  background-image: url(./image/DJI_0191-29.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 510px;
+  height: 550px;
+  border-radius: 10px;
+
+   
+}
+.work .imag4{
+  background-image: url(./image/DJI_0191-29.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 510px;
+  height: 550px;
+  border-radius: 10px;
+
+   
+}
+.work .imag5{
+  background-image: url(./image/DJI_0191-29.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 510px;
+  height: 550px;
+  border-radius: 10px;
+
+   
+}
+.work .imag6{
+  background-image: url(./image/DJI_0191-29.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 510px;
+  height: 550px;
+  border-radius: 10px;
+}
+.work .imag7{
+  background-image: url(./image/DJI_0191-29.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 510px;
+  height: 550px;
+  border-radius: 10px;
+}
+.work .imag8{
+  background-image: url(./image/DJI_0191-29.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 510px;
+  height: 550px;
+  border-radius: 10px;
+}
+.work .imag9{
+  background-image: url(./image/DJI_0191-29.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 510px;
+  height: 550px;
+  border-radius: 10px;
+}
+@media (max-width: 500px){
+  
+  
+  .navbar{
+    display: none;
+    width: 500px;
+  }
+  
+  .about{
+    width: 500px;
+  }
+  .cantact{
+    width: 500px;
+  }
+  .video video {
+    position: relative;
+    height: 500px;
+    top: 0px;
+    width: 100%;
+  }
+  .about p{
+    text-indent: 5px;
+  }
+  .work{
+    width: 500px;
+  }
+   .work .img1 {
+    display: inline;
+    
+    
+  }
+  .work .imag1{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag2{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag3{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag4{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag5{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag6{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag7{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag8{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag9{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+    
+  }
+  .service{
+    width: 500px;
+    gap: 0px;
+    display: inline;
+  }
+  .service h1{
+    font-size: 15px;
+  }
+  
+  .cantact h1{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+  .part2{
+    width: 500px;
+    display: inline;
+  }
+  
+  .part2 form input {
+    width: 350px;
+    margin-left: 60px;
+  }
+  
+  .part2 form textarea{
+    width:350px;
+    height: 70px;
+    margin-left: 60px; 
+  }
+  .button3 .bu3 button{
+    
+    position: relative;
+    left: 140px;
+    
+  
+  }
+  
+  
+}
+@media (max-width: 414px){
+  
+  
+  .navbar{
+    display: none;
+    width: 414px;
+  }
+  
+  .about{
+    width: 414px;
+  }
+  .cantact{
+    width: 414px;
+  }
+  .video video {
+    position: relative;
+    height: 500px;
+    top: 0px;
+    width: 100%;
+  }
+  .about p{
+    text-indent: 5px;
+  }
+  .work{
+    width: 414px;
+  }
+   .work .img1 {
+    display: inline;
+    
+    
+  }
+  .work .imag1{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag2{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag3{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag4{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag5{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag6{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag7{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag8{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag9{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+    
+  }
+  .service{
+    width: 414px;
+    gap: 0px;
+    display: inline;
+  }
+  .service h1{
+    font-size: 15px;
+  }
+  
+  .cantact h1{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+  .part2{
+    width: 414px;
+    display: inline;
+  }
+  
+  .part2 form input {
+    width: 350px;
+    margin-left: 20px;
+  }
+  
+  .part2 form textarea{
+    width:350px;
+    height: 70px;
+    margin-left: 20px; 
+  }
+  .button3 .bu3 button{
+    
+    position: relative;
+    left: 110px;
+    
+  
+  }
+  
+  
+}
